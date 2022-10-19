@@ -1,0 +1,33 @@
+heart.csv
+Datos originales: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+1. Título: Bases de datos de enfermedades del corazón
+
+2. Contenido: 14 atributos, 126 instancias
+
+3. Atributos:
+	1 edad: edad en años
+	2 genero: (1 = masculino; 0 = femenino)
+	3 dolor_pecho: tipo de dolor de pecho
+        -- Valor 1: angina típica
+        -- Valor 2: angina atípica
+        -- Valor 3: dolor no anginoso
+        -- Valor 4: asintomático
+	4 presion_arterial: presión arterial en reposo (en mm Hg al ingresar en el hospital)
+	5 colesterol: colesterol sérico en mg/dl
+	6 azucar_sangre: glucemia en ayunas > 120 mg/dl (1 = verdadero; 0 = falso)
+	7 electrocardio: resultados electrocardiográficos en reposo
+        -- Valor 0: normal
+        -- Valor 1: que presenta anormalidad de la onda ST-T (inversiones de la onda T y/o elevación o depresión del ST de > 0,05 mV)
+        -- Valor 2: presentar hipertrofia ventricular izquierda probable o definida según los criterios de Estes
+	8 frec_cardiaca_max: frecuencia cardíaca máxima alcanzada
+	9 angina_ejercicio: angina inducida por el ejercicio (1 = sí; 0 = no)
+	10 depresion_st: Depresión del ST inducida por el ejercicio en relación con el reposo
+	11 pendiente_st: la pendiente del segmento ST de ejercicio máximo
+        -- Valor 1: pendiente ascendente
+        -- Valor 2: plano
+        -- Valor 3: pendiente descendente
+	12 num_bloques: número de vasos mayores (0-3) coloreados por la flouroscopia
+	13 talasemia: afección por talasemia (0 = normal; 1 = defecto fijo; 2 = defecto reversible)
+	14 clase: presencia de enfermedad cardíaca en el paciente (0 = sin enfermedad y 1 = enfermedad)
+	
